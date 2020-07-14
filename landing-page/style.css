@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{box-sizing: border-box;}
+
+body{
+	background-color: #f7f7ff;
+	margin: 0 auto;
+}
+
+/*Logo editing start's here*/
+.logo{
+	width: 85px;
+	height: 85px;
+	margin-left: 45px;
+}
+h1{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 3.2em;
+	margin-left: 45px;
+}
+
+p{
+	font-family: 'Montserrat', sans-serif;
+	margin-left: 45px;
+}
+/*Background Image editing*/
+.scooter{
+	height: 90%;
+	width: 90%;
+	padding-left: 45px;
+}
+
+
+
+/*Form editing start's here*/
+.form{
+  width:80%;
+  margin:1rem;
+  box-shadow: 1px 2px 3px 0px #333131;
+  border-radius: 20px;
+  border: 0;
+  padding: 25px;
+  background-color: white;
+  margin-left: 60px;
+}
+
+.form h2{
+	text-align: center;
+	font-family: 'Montserrat', sans-serif; 
+	font-size: 2.5em;
+
+}
+
+.form p{
+
+	font-family: 'Montserrat', sans-serif; 
+	font-size: 0.8em;
+
+}
+fieldset{
+  width:100%;
+  border-style:none;
+}
+
+input{
+  width:100%;
+  border: none;
+  padding:10px;
+  background-color: #EDEDED;
+  border-radius: 10px;
+  color: #c8c8c8;
+  
+}
+button{
+  width:98%;
+  height:45px;
+  padding:3px;
+  background-color: #57eeab;
+  color: black;
+  border: none;
+  border-radius: 11px;
+  font-weight: 700;
+  font-size: 1em;
+}
+label{
+	font-family: 'Montserrat', sans-serif;
+
+}
+
+.form p a{
+	color: #ff8480;
+	text-decoration: none;
+}
+
+/*Footer editing starte here*/
+
+.footer{
+  	background-color: #fffd8c;
+  	height: 320px;
+  	width: 100%;
+  	margin: 0 auto;
+  }
+.footer h3{
+	font-family: 'Montserrat', sans-serif; 
+	font-weight: 600;
+	padding-top: 20px;
+	padding-left: 35px;
+
+}
+.footer p{
+	margin-left: 35px;
+}
+.info{
+	display: inline-flex;
+	padding-left: 35px;
+}
+.info input{
+	background-color: white;
+	color: #333131;
+
+}
+.info{
+	display: grid;
+	grid-template-columns: 30% 60%;
+
+}
+
+.info input:last-child{
+	margin-left: 10px;
+}
+
+.footer-button{
+	background-color: #ff8480;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700; 
+	font-size: 1em;
+	margin-top: 10px;
+	margin-left: 35px;
+	width: 86%;
+}
+.icons{
+	display: flex;
+	justify-content: space-evenly;
+	margin-top: 30px;
+}
+/*footer editing end here*/
+
+
+
+
+/*Media query for Tablet view start here*/
+@media (min-width: 700px){
+ 
+ .scooter{
+ 	height: 60%;
+ 	width: 60%;
+ 	margin-left: 150px;
+ }
+ .logo{
+ 	margin-left: 100px;
+ }
+.main-info h1,p{
+	margin-left: 100px;
+}
+ .form{
+ 	width: 88%;
+ 	height: auto;
+ 	justify-content: center;
+ }
+.short-form{
+
+	display: flex;
+}
+.info{
+	width: 50%;
+}
+.footer-button{
+	width: 40%;
+
+}
+
+.footer-button{
+	height: 40px;
+	margin-left: 0;
+}
+
+.footer p{
+	margin-left: 35px;
+}
+
+.icons{
+	margin-top: 70px;
+}
+
+}
+
+
+
+
+
+
+
+/*Media query for desktop view start here*/
+@media(min-width: 1100px){
+	
+	
+
+	.logo, .section h1,p{
+		margin-left: 100px; 
+	}
+
+	/*.main-info h1,p{
+	margin-left: 100px;
+	
+	}*/
+
+	.scooter{
+		height: auto;
+		width: 700px;
+		position: absolute;
+		top: 90px;
+		left: 120px;
+	}
+
+	.form{
+		width: 30%;
+		height: auto;
+		position: absolute;
+		top: 60px;
+		right: 70px;
+
+	}
+
+	.footer{
+		margin-top: 250px;
+		height: 170px;
+		position: relative;
+	}
+
+	.short-form{
+		width: 65%;
+	}
+
+	.icons{
+		width: 25%;
+		position: absolute;
+		right: 20px;
+		top: 15px;
+		margin-top: 36px;
+	}
+
+
+	
+}
