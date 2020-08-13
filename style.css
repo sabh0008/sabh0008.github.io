@@ -45,7 +45,7 @@ body{
 }
 
 
-.imagery{
+#image-text{
   margin-top: 310px;
 
 }
@@ -235,8 +235,8 @@ body {
         left: 40px;
     }
 
-    .imagery{
-      margin-top: 30px;
+    #image-text{
+      margin-top: 25px;
     }
 
 	#contact{
