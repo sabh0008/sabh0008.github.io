@@ -174,12 +174,19 @@ body {
 
 	.carousel-main{
 		width: 100%;
-	}
+    }
+    
+    .tapan-image{
+        margin-top: 40px;
+    }
 
 	.icons li{
 		display: block;
 		padding-bottom: 300px;
-	}
+    }
+    .icons{
+        margin-left: ;
+    }
 
 	#contact{
 		width: 100%;
