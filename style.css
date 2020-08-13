@@ -43,6 +43,10 @@ body{
 	margin-top: 100px;
 }
 
+#carousel-photography{
+    box-shadow: darkgray;
+}
+
 body {
   margin:0;
   padding:0;
@@ -195,6 +199,7 @@ body {
 
 	#contact{
 		display: none;
-	}
+    }
+    
 }
 
