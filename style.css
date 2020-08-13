@@ -180,12 +180,17 @@ body {
         margin-top: 40px;
     }
 
+    .icons-container{
+        position: relative;
+    }
+
 	.icons li{
 		display: block;
 		padding-bottom: 300px;
     }
     .icons{
-        margin-left: ;
+        position: absolute:
+        left: 40px;
     }
 
 	#contact{
