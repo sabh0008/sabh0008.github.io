@@ -44,7 +44,7 @@ body{
 }
 
 
-a[href="#myCarousel"]{
+#backtotop{
     position: fixed;
     right: 2%;
     bottom: 4%;
@@ -57,7 +57,7 @@ a[href="#myCarousel"]{
     border: 1px solid: black;
 }
 
-a[href="#myCarousel"] > i{
+#backtotop > i{
 	font-size: 1.5em;
 }
 
