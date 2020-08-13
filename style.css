@@ -44,7 +44,8 @@ body{
 }
 
 #carousel-photography{
-    box-shadow: darkgray;
+    box-shadow: 10px 15px 0 5px;
+    border-radius: none;
 }
 
 body {
