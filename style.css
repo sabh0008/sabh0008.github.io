@@ -42,7 +42,9 @@ body{
 	font-family: 'Pacifico', cursive;
 	margin-top: 100px;
 }
-
+.potography{
+    box-shadow: 15px 15px 10px;
+}
 
 body {
   margin:0;
