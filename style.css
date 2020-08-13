@@ -20,6 +20,24 @@ body{
 	font-family: 'Dancing Script', cursive;
 }
 
+
+.lead {
+	animation-duration: 3s;
+	animation-name: slidein-left;
+  }
+  
+  @keyframes slidein-left {
+	from {
+	  margin-left: 100%;
+	  width: 300%; 
+	}
+  
+	to {
+	  margin-left: 0%;
+	  width: 100%;
+	}
+  }	
+
 .d-block{
 	border-radius: inherit;
 	border-radius: 55px 55px 0 0;
